@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+.head{
+	background-color: #e3f6f9;
+}
+.head a{
+	text-decoration: none;
+	color: #1019ef;
+}
+.head .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head .left{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+.head .left a{
+	margin: 10px 20px;
+}
+.head .left a i{
+	margin-right: 10px;
+}
+
+.head .right{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head .right a{
+	margin: 10px 20px;
+}
+
+.down{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.down li{
+	list-style-type: none;
+}
+.down a{
+	text-decoration: none;
+}
+.down .logo{
+	width: 20%;
+	height: 70px;
+	padding: 14px 0;
+}
+.down .logo h1{
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
+}
+
+.down .menu ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.down .menu ul li{
+	margin: 0 8px;
+}
+.down .menu ul li a{
+	color: #1019ef;
+	font-size: 17px;
+	display: block;
+	width: 100%;
+	height: 45px;
+	padding: 12px 10px;
+}
+.down .menu ul li:last-of-type{
+	margin-right: 0;
+	background-color: #1019ef;
+	width: 36px;
+	height: 40px;
+
+}
+.down .menu ul li:last-of-type a{
+	color: #fff;
+}
+
+	/*Hover*/
+
+.down .menu ul li:hover a{
+	color: #fff;
+	background-color: #1019ef;
+}
+
+.down .menu ul li:last-of-type:hover a{
+	color: #1019ef;
+	background-color: #fff;
+}
+
+
+	/*Section*/
+
+.section{
+	background-color: #e3f6f9;
+	padding: 9% 0;
+}
+
+.section .immis{
+	width: 46%;
+}
+.section .immis h1{
+	margin: 0 0 6px 0;
+	font-size: 6rem;
+	font-weight: bold;
+	color: #1f3377;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.section .immis h2{
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 30px;
+	font-size: 3rem;
+}
+
+.section .immis p{
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.section .immis a{
+	text-decoration: none;
+    background-color: #1f3377;
+    color: #fff;
+    width: 23%;
+    height: 50px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+
